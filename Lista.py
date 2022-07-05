@@ -31,7 +31,7 @@ entrada =(input('Digite o animal que quer encontrar na lista: '))
 if entrada in lista_animal:
     print('Existe um {} na lista ' .format (entrada))
 else:
-    print('não existe o animal na lista')    
+    print('não existe o animal {} na lista' .format(entrada))    
 
 
 # Tupla são listas imutavéis
